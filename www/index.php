@@ -12,7 +12,7 @@
         echo "\nConnected to MySQL";
         echo "\nVocẽ está conectado utilizando o navegador: ".$_SERVER['HTTP_USER_AGENT'];
 
-        $name = "Felipe Sampaio da Mota";
+            $name = "Felipe Sampaio da Mota";
         if (strpos(strtoupper($name), "MOTA") !== false) {
     ?>
 
@@ -24,5 +24,7 @@
     <?php
         }
     ?>
+
+    <a href="form.php">Formulário</a>
 </body>
 </html>
